@@ -10,7 +10,7 @@ function Home() {
 
       <div className="hero-content">
         <p className="eyebrow"><span /> Discover the heart of Pangasinan</p>
-        <h1>Where islands,<br />heritage, and adventure meet.</h1>
+        <h1>Kung saan,<br />heritage, and adventure meet.</h1>
         <p className="hero-description">
           Journey through storied coastlines, living traditions, and natural wonders that make
           every corner of Pangasinan worth discovering.
