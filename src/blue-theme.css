@@ -1,0 +1,62 @@
+:root { color: #050505; background: #f4fbff; }
+body { color: #050505; background: #f4fbff; }
+
+.hero-section { min-height: 580px; height: min(700px, 88svh); background: #081b4b; }
+.hero-overlay { background: linear-gradient(90deg, rgb(4 18 53 / 88%), rgb(8 27 75 / 44%)); }
+.site-header { width: min(1120px, calc(100% - 48px)); min-height: 76px; }
+.brand-mark { color: #081b4b; background: #d9f1ff; }
+.primary-nav > a:not(.visit-button) { color: rgb(255 255 255 / 82%); }
+.primary-nav > a:not(.visit-button)::after { background: #8ed8ff; }
+.visit-button { border-radius: 2px; color: #081b4b; background: #fff; }
+.visit-button:hover { color: #fff; background: #145da0; }
+
+.hero-content { width: min(1120px, calc(100% - 48px)); padding-bottom: 88px; }
+.eyebrow { color: #aee3ff; }
+.hero-content h1 { max-width: 650px; font-size: clamp(48px, 6vw, 76px); letter-spacing: -2px; }
+.hero-description { max-width: 460px; color: rgb(255 255 255 / 84%); }
+.primary-action { border-radius: 2px; color: #081b4b; background: #d9f1ff; }
+.primary-action:hover { background: #fff; }
+.text-action { border-color: #aee3ff; }
+
+.page-section { padding: 88px max(24px, calc((100% - 1120px) / 2)); }
+.section-label { color: #145da0; }
+.section-heading { margin-bottom: 38px; }
+.section-heading h2, .culture-copy h2, .plan-heading h2 { color: #081b4b; }
+.section-heading > p { color: #40526e; }
+.destination-search { border-color: #8eb7d5; background: transparent; box-shadow: none; }
+.destination-search svg { stroke: #081b4b; }
+.destination-search input { color: #050505; }
+.destination-search input::placeholder, .search-summary { color: #58738e; }
+.destination-search button { color: #081b4b; background: transparent; }
+.destination-grid { grid-template-columns: repeat(3, 1fr); gap: 44px 24px; }
+.destination-card { border: 0; border-top: 1px solid #b9d5e8; border-radius: 0; background: transparent; }
+.destination-card:hover { transform: none; box-shadow: none; }
+.card-image-wrap { height: 220px; margin-top: 13px; }
+.card-image-wrap::after { display: none; }
+.card-image-wrap > span { border-radius: 2px; color: #081b4b; background: rgb(255 255 255 / 94%); }
+.card-content { padding: 16px 0 0; }
+.card-content .card-location { color: #145da0; }
+.card-content h3 { min-height: auto; color: #050505; font-size: 25px; }
+.card-content > p:not(.card-location) { min-height: auto; color: #4b5f70; }
+.card-content a, .back-home { color: #081b4b; }
+.card-content a:hover, .back-home:hover { color: #000; }
+.destination-card:first-child { grid-column: span 2; }
+.destination-card:first-child .card-image-wrap { height: 310px; }
+.empty-results { border-color: #b9d5e8; background: #e9f7ff; }
+.empty-results h3 { color: #081b4b; }
+.empty-results button { background: #081b4b; }
+
+.culture-section { background: #081b4b; }
+.culture-copy .section-label, .culture-points span { color: #9edfff; }
+.culture-copy h2 { color: #fff; }
+.culture-points article { border-color: rgb(174 227 255 / 30%); }
+.culture-points h3 { color: #fff; }
+.plan-section { background: #dff3ff; }
+.plan-grid { background: #a9cce2; }
+.plan-grid article { background: #fff; }
+.plan-grid article > span { color: #fff; background: #081b4b; }
+.plan-grid h3 { color: #081b4b; }
+
+@media (max-width: 820px) { .destination-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .site-header, .hero-content { width: calc(100% - 32px); } .hero-content { padding-bottom: 68px; } .page-section { padding-top: 68px; padding-bottom: 68px; } .destination-grid { grid-template-columns: 1fr; } .destination-card:first-child { grid-column: auto; } .destination-card:first-child .card-image-wrap, .card-image-wrap { height: 260px; } }
+@media (max-width: 820px) { .primary-nav { background: #081b4b; } }
