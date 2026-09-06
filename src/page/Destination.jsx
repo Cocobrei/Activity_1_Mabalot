@@ -3,14 +3,14 @@ import bolinaoBeach from '../assets/bolinao-beach.jpg'
 import dasolBeach from '../assets/Dasol-beach.jpg'
 import lingayenBeach from '../assets/Lingayen-beach.jpg'
 import tondolBeach from '../assets/tondol-beach-anda.jpg'
-import sanFabianBeach from '../assets/San-Fabian-beach.jpg'
+import calasiaoChurch from '../assets/calasiao-church.jpg'
 
 const attractions = [
   { name: 'Bolinao Beach', location: 'Bolinao', category: 'Coastal escape', image: bolinaoBeach, description: 'A relaxed shoreline for clear water, slow afternoons, and west-coast sunsets.' },
   { name: 'Dasol Beach', location: 'Dasol', category: 'Beach day', image: dasolBeach, description: 'Enjoy a quiet stretch of coast with soft sand and open sea views.' },
   { name: 'Lingayen Beach', location: 'Lingayen', category: 'Seaside walk', image: lingayenBeach, description: 'A broad beach for morning walks, local food, and easy sea breezes.' },
   { name: 'Tondol Beach, Anda', location: 'Anda', category: 'Island views', image: tondolBeach, description: 'A calm beachfront with shallow water and views toward nearby islets.' },
-  { name: 'San Fabian Beach', location: 'San Fabian', category: 'Beach retreat', image: sanFabianBeach, description: 'A simple beach stop for fresh air, family time, and mountain views.' },
+  { name: 'Saint Peter and Paul Parish Church', location: 'Calasiao', category: 'Heritage landmark', image: calasiaoChurch, description: 'Visit Calasiao’s historic parish church, a meaningful landmark of faith, community, and local heritage.' },
 ]
 
 function Destination() {
@@ -27,7 +27,7 @@ function Destination() {
           <p className="section-label">Places to visit</p>
           <h2>Explore the coast.</h2>
         </div>
-        <p>Six simple stops for a slower trip around Pangasinan.</p>
+        <p>Five simple stops for a slower trip around Pangasinan.</p>
       </div>
 
       <label className="destination-search">

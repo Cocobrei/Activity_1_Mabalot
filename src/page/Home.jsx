@@ -2,6 +2,10 @@ import Header from '../header/header.jsx'
 import bolinaoBeach from '../assets/Pangasinan.jpg'
 
 function Home() {
+  const scrollToDestinations = () => {
+    document.querySelector('#destinations')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section id="home" className="hero-section">
       <img className="hero-background" src={bolinaoBeach} alt="Blue water and shoreline at Bolinao Beach, Pangasinan" />
@@ -16,7 +20,7 @@ function Home() {
           every corner of Pangasinan worth discovering.
         </p>
         <div className="hero-actions">
-          <a className="primary-action" href="#destinations">Explore destinations <span aria-hidden="true">→</span></a>
+          <button className="primary-action" type="button" onClick={scrollToDestinations}>Explore destinations <span aria-hidden="true">→</span></button>
           <a className="text-action" href="#culture">Our stories <span aria-hidden="true">↗</span></a>
         </div>
       </div>
